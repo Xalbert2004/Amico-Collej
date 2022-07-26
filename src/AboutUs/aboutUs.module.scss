@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-image: url("../images/fon.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 3vw;
+  p {
+    font-size: 2.9vw;
+    color: #fe0002;
+    margin-top: 1vw;
+  }
+  .wrapper {
+    width: 75%;
+    height: 45vw;
+    margin: 3vw auto;
+    p {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      font-size: 1.2vw;
+      color: black;
+    }
+  }
+}
