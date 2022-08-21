@@ -71,6 +71,7 @@ export default function Menu({ menu1 }) {
       title: "Սառը խորտիկներ",
       content: "Lorem Ipsum",
     },
+    
   ];
 
   function handleClick(e) {

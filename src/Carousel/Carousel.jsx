@@ -11,7 +11,6 @@ import img5 from "../images/img5.jpg";
 
 export default function Carousel() {
   const settings = {
-    dots: true,
     infinite: true,
     centerMode: true,
     slidesToShow: 1,
@@ -39,7 +38,7 @@ export default function Carousel() {
   ];
   return (
     <div className={styles.container}>
-      <Slider style={{backgroundColor:'#FBFDFC'}} {...settings}>
+      <Slider style={{backgroundColor:'#FBFDFC', height:'10vw'}} {...settings}>
         {items.map((x, index) => {
           return (
             <div key={index} className={styles.item}>

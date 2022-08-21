@@ -8,7 +8,7 @@
   top: 0;
   z-index: 10;
   width: 100%;
-  height: 6vw;
+  height:8vw;
   background-color: #fff;
   nav {
     margin: auto 0;
@@ -21,6 +21,9 @@
     float: left;
     margin-left: 3vw;
     transition: 0.5s;
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
     &:first-child {
       color: #fe0002;
     }
@@ -46,6 +49,9 @@
     p {
       text-align: center;
       font-size: 1.6vw;
+      @media screen and (max-width: 600px) {
+        font-size: 2vw;
+      }
       &:first-child {
         font-family: "Montserrat", sans-serif;
 
@@ -53,6 +59,9 @@
       }
       &:last-child {
         font-size: 1.2vw;
+        @media screen and (max-width: 600px) {
+          font-size: 2vw;
+        }
       }
     }
   }
