@@ -8,8 +8,11 @@
   top: 0;
   z-index: 10;
   width: 100%;
-  height:8vw;
+  height: 6vw;
   background-color: #fff;
+  @media screen and (max-width: 600px) {
+    height: 10vw;
+  }
   nav {
     margin: auto 0;
   }
@@ -42,6 +45,9 @@
   .headerLogo {
     width: 14vw;
     height: 100%;
+    @media screen and (max-width: 600px) {
+      width: 18vw;
+    }
   }
   .wrapper {
     @extend %display;
@@ -50,7 +56,7 @@
       text-align: center;
       font-size: 1.6vw;
       @media screen and (max-width: 600px) {
-        font-size: 2vw;
+        font-size: 2.5vw;
       }
       &:first-child {
         font-family: "Montserrat", sans-serif;
@@ -60,7 +66,7 @@
       &:last-child {
         font-size: 1.2vw;
         @media screen and (max-width: 600px) {
-          font-size: 2vw;
+          font-size: 2.5vw;
         }
       }
     }

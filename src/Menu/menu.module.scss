@@ -25,7 +25,7 @@
     margin-top: 0.5vw;
     @media screen and (max-width: 600px) {
       height: fit-content;
-      width: 90%;
+      width: 100%;
     }
   }
   .item {
@@ -41,8 +41,8 @@
     overflow: hidden;
     font-size: 14px;
     @media screen and (max-width: 600px) {
-      width: 30vw;
-      height: 30vw;
+      width: 35vw;
+      height: 35vw;
     }
     &:hover img {
       transform: scale(1.05);
