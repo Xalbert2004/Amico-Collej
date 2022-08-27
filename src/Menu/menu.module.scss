@@ -16,6 +16,10 @@
     font-size: 2.9vw;
     margin-top: 2vw;
     color: #e93c3c;
+    @media screen and (max-width:600px) {
+    font-size: 4vw;
+      
+    }
   }
   .wrapper {
     @extend %display;
@@ -39,10 +43,11 @@
     display: inline-block;
     box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
     overflow: hidden;
-    font-size: 14px;
+    font-size: 1vw;
     @media screen and (max-width: 600px) {
       width: 35vw;
       height: 35vw;
+      font-size: 2vw;
     }
     &:hover img {
       transform: scale(1.05);
@@ -59,6 +64,7 @@
     p {
       font-size: 1vw;
       margin-left: 1vw;
+      color: black;
       @media screen and (max-width: 600px) {
         font-size: 2vw;
       }

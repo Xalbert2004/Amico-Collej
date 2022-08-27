@@ -1,0 +1,70 @@
+.container {
+  margin: 10vw auto;
+  width: 90%;
+  @media screen and (max-width: 600px) {
+    align-items: center;
+    margin: 12vw auto;
+   width: 80%;  
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1vw;
+    .itemsMenu {
+      cursor: pointer;
+      width: 20vw;
+      height: 20vw;
+      box-shadow: 5px 5px rgb(228, 228, 228);
+      border-radius: 1vw;
+      margin-top: 1.5vw;
+      margin-left: 1.4vw;
+      position: relative;
+      display: inline-block;
+      box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      font-size: 1vw;
+      @media screen and (max-width: 600px) {
+        width: 35vw;
+        height: 35vw;
+        font-size: 2vw;
+      }
+
+      &:hover div {
+        opacity: 1;
+      }
+      .itemTitle {
+        font-size: 1.5vw;
+        margin-left: 1vw;
+        color: black;
+        @media screen and (max-width: 600px) {
+          font-size: 2.5vw;
+        }
+      }
+      .itemContent{
+        font-size: 1vw;
+        margin-left: 1vw;
+        color: black;
+        @media screen and (max-width: 600px) {
+            font-size: 2vw;
+          }
+      }
+    }
+    img {
+      height: 70%;
+      width: 100%;
+      transition: all 0.2s linear;
+    }
+  }
+  .title {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-size: 2.9vw;
+    margin-top: 2vw;
+    color: #e93c3c;
+    @media screen and (max-width: 600px) {
+      font-size: 4vw;
+    }
+  }
+}

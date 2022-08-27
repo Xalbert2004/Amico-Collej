@@ -2,9 +2,17 @@
   display: flex;
   justify-content: space-evenly;
 }
+a {
+  color: black;
+  transition: 0.7s;
+}
+a:hover {
+  color: red;
+}
 .container {
   @extend %display;
   position: fixed;
+  align-items: center;
   top: 0;
   z-index: 10;
   width: 100%;
@@ -12,6 +20,12 @@
   background-color: #fff;
   @media screen and (max-width: 600px) {
     height: 10vw;
+  }
+  .backward {
+    font-size: 2vw !important;
+    @media screen and (max-width: 600px) {
+      font-size: 3vw !important;
+    }
   }
   nav {
     margin: auto 0;
@@ -22,27 +36,28 @@
     font-size: 1.4vw;
     list-style: none;
     float: left;
-    margin-left: 3vw;
     transition: 0.5s;
     @media screen and (max-width: 600px) {
       display: none;
     }
-    &:first-child {
-      color: #fe0002;
-    }
+
     &:hover {
       color: #fe0002;
     }
-    a{
+    a {
       text-decoration: none;
       color: black;
       transition: 0.5s;
+      &:last-child {
+        margin-left: 4vw;
+      }
       &:hover {
         color: #fe0002;
       }
     }
   }
   .headerLogo {
+    margin-right: 25vw;
     width: 14vw;
     height: 100%;
     @media screen and (max-width: 600px) {
@@ -63,12 +78,11 @@
 
         color: #fe0002;
       }
-    }
-    a{
-      font-size: 1.3vw;
-      text-decoration: none;
-      @media screen and (max-width: 600px) {
-        font-size: 2.8vw;
+      &:last-child {
+        font-size: 1.2vw;
+        @media screen and (max-width: 600px) {
+          font-size: 2.8vw;
+        }
       }
     }
   }

@@ -16,14 +16,13 @@ export default function Footer() {
           <div className={styles.iconItem}>
             <HiLocationMarker className={styles.icons} />
             <p className={styles.content}>
-              Nairyan street 166/26 1501 Sevan,Armenia
+              Nairyan street 166/26 1501 Sevan
             </p>
           </div>
           <div className={styles.iconItem}>
             <HiPhone className={styles.icons} />
             <p className={styles.content}>094-26-22-62</p>
           </div>
-          
         </div>
         <div className={styles.item}>
           <p className={styles.title}>Կապ մեզ հետ</p>

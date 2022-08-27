@@ -1,6 +1,7 @@
 import React from "react";
-import styles from "../Header/header.module.scss";
+import styles from "../Header/headerMoreMenu.module.scss";
 import amicoLogo from "../images/amicologo.png";
+import { IoMdArrowRoundBack } from "react-icons/io";
 
 export default function Header() {
   function handleClick(e) {
@@ -8,27 +9,15 @@ export default function Header() {
   }
   return (
     <div className={styles.container}>
+      <a href = "/"><IoMdArrowRoundBack className={styles.backward} /></a>
       <img
         onDragStart={handleClick}
         className={styles.headerLogo}
         src={amicoLogo}
       ></img>
-      <nav>
-        <ul>
-          <li>
-            <a href="#home">Գլխավոր</a>
-          </li>
-          <li>
-            <a href="#menu1">Մենյու</a>
-          </li>
-          <li>
-            <a href="#kap">Կապ</a>
-          </li>
-        </ul>
-      </nav>
       <div className={styles.wrapper}>
         <p>Առաքում</p>
-        <a href="tel:094-26-22-62">094-26-22-62</a>
+        <p>094-26-22-62</p>
       </div>
     </div>
   );

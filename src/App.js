@@ -1,24 +1,18 @@
 import React from "react";
 import "../src/App.css";
-import AmicoBackground from "./AmicoBackground/AmicoBackground";
-import Header from "./Header/Header";
-import Menu from "./Menu/Menu";
-import AboutUs from "./AboutUs/AboutUs";
-import Footer from "./Footer/Footer";
-import MoreMenu from "./MoreMenu/MoreMenu";
-import {Router,Route} from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import MenusPage from "../src/Pages/MenusPage";
+import HomePage from "./Pages/HomePage";
+
 export default function App() {
   return (
-
-    // <Router>
+    <Router>
       <div className="container">
-        <Header />
-        <AmicoBackground home="home" />
-        <Menu menu1 ="menu1" />
-        <AboutUs aboutus ="aboutus"/>
-        <Footer/>
+        <Routes>
+          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/moremenu" element={<MenusPage />}></Route>
+        </Routes>
       </div>
-      // {/* <Route path="/" element={MoreMenu}></Route> */}
-      // </Router>
-     );
+    </Router>
+  );
 }
