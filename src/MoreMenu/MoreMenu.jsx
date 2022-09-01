@@ -37,6 +37,10 @@ export default function MoreMenu() {
   const title8 = location.state.title8;
   const content8 = location.state.content8;
 
+  const pizzass = location.state.object1
+  const pizzass1 = location.state.object2
+console.log(pizzass)
+console.log(pizzass1)
   const items = [
     {
       img: img1,
@@ -77,6 +81,8 @@ export default function MoreMenu() {
       img: img8,
       title: title8,
       content: content8,
+
+      
     },
   ];
   console.log(title);
