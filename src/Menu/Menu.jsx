@@ -20,63 +20,75 @@ export default function Menu(menu1) {
       content:
         "Ամիգո, Պեպերոնի, Կոռլեոն Մարգարիտա, Ալ Պրոշուտտո, Կորիդա, Վեգետարիական, Չեզարե, Ասորտի մսով, Կուատրո Ֆորմաջի, Պրիմավերա, Սիցիլիա",
 
-      pizzas: {
-        img1: pizza,
-        title1: "Ամիգո",
+      pizzas: [
+        {id:1,
+        img: pizza,
+        title: "Ամիգո"},
         // content1: "cheese",
 
-        img2: pizza,
-        title2: "Պեպերոնի",
-        content2:
-          "Երշիկ «Պեպերոնի», բուլղարական պղպեղ, պանիր (Ֆենդել, մոցարելլա), սոուս ",
+        {id:2,
+        img: pizza,
+        title: "Պեպերոնի",
+        content:
+          "Երշիկ «Պեպերոնի», բուլղարական պղպեղ, պանիր (Ֆենդել, մոցարելլա), սոուս "},
 
-        img3: pizza,
-        title3: "Կոռլեոն",
-        content3:
-          "Բաստուրմա,  բուլղարական պղպեղ, օրեգատո, պանիր (Ֆենդել, մոցարելլա), սոուս",
+        {id:3,
+        img: pizza,
+        title: "Կոռլեոն",
+        content:
+          "Բաստուրմա,  բուլղարական պղպեղ, օրեգատո, պանիր (Ֆենդել, մոցարելլա), սոուս"},
 
-        img4: pizza,
-        title4: "Մարգարիտա",
-        content4: "պանիր (Ֆենդել, մոցարելլա), բուլղարական պղպեղ, սոուս",
+        {id:4,
+        img: pizza,
+        title: "Մարգարիտա",
+        content: "պանիր (Ֆենդել, մոցարելլա), բուլղարական պղպեղ, սոուս"},
 
-        img5: pizza,
-        title5: "Ալ Պրոշուտտո",
-        content5:
-          "Խոզապուխտ, լոլիկ, ձիթապտուղ, սերվելատ, սոուս, պանիր (Ֆենդել, մոցարելլա)",
+        {id:5,
+        img: pizza,
+        title: "Ալ Պրոշուտտո",
+        content:
+          "Խոզապուխտ, լոլիկ, ձիթապտուղ, սերվելատ, սոուս, պանիր (Ֆենդել, մոցարելլա)"},
 
-        img6: pizza,
-        title6: "Կորիդա",
-        content6:
-          "Տավարի միս, սունկ, սոուս, պանիր (Ֆենդել, մոցարելլա), լոլիկ, ձիթապտուղ",
+        {id:6,
+        img: pizza,
+        title: "Կորիդա",
+        content:
+          "Տավարի միս, սունկ, սոուս, պանիր (Ֆենդել, մոցարելլա), լոլիկ, ձիթապտուղ"},
 
-        img7: pizza,
-        title7: "Վեգետարիական",
-        content7:
-          "Սունկ, Բուլղարական պղպեղ, լոլիկ, մարինացված եգիպտացորեն, պանիր",
+        {id:7,
+        img: pizza,
+        title: "Վեգետարիական",
+        content:
+          "Սունկ, Բուլղարական պղպեղ, լոլիկ, մարինացված եգիպտացորեն, պանիր"},
 
-        img8: pizza,
-        title8: "Չեզարե",
-        content8: "Հավի կրծքամիս, բուլղարական պանիր, պանիր, սոուս",
+        {id:8,
+        img: pizza,
+        title: "Չեզարե",
+        content: "Հավի կրծքամիս, բուլղարական պանիր, պանիր, սոուս"},
 
-        img9: pizza,
-        title9: "Ասորտի մսով",
-        content9:
-          "Հավի կրծքամիս, սունկ, տավարի միս, լոլիկ, խոզապուխտ, սերվելատ, բաստուրմա",
+        {id:9,
+        img: pizza,
+        title: "Ասորտի մսով",
+        content:
+          "Հավի կրծքամիս, սունկ, տավարի միս, լոլիկ, խոզապուխտ, սերվելատ, բաստուրմա"},
 
-        img10: pizza,
-        title10: "Կուատրո Ֆորմաջի",
-        content10: "Ռոկվոր, սուլուգունի, ֆենդել, մոցարելլա, օրեգանո, սոուս",
+        {id:10,
+        img: pizza,
+        title: "Կուատրո Ֆորմաջի",
+        content: "Ռոկվոր, սուլուգունի, ֆենդել, մոցարելլա, օրեգանո, սոուս"},
 
-        img11: pizza,
-        title11: "Պրիմավերա",
-        content11:
-          "Խոզապուխտ, հավի կրծքամիս, սունկ, պանիր (Ֆենդել, մոցարելլա), սոուս",
+        {id:11,
+        img: pizza,
+        title: "Պրիմավերա",
+        content:
+          "Խոզապուխտ, հավի կրծքամիս, սունկ, պանիր (Ֆենդել, մոցարելլա), սոուս"},
 
-        img12: pizza,
-        title12: "Սիցիլիա",
-        content12:
-          "Տավարի միս, բուլղարական պղպեղ, պանիր (Ֆենդել, մոցարելլա), սոուս ",
-      },
+        {id:12,
+        img: pizza,
+        title: "Սիցիլիա",
+        content:
+          "Տավարի միս, բուլղարական պղպեղ, պանիր (Ֆենդել, մոցարելլա), սոուս "}
+        ],
     },
 
     {
@@ -85,27 +97,104 @@ export default function Menu(menu1) {
       title: "Բուրգեր",
       content: "Տավարի մսով, հավի մսով, խոզապուխտով",
 
-      img1: burger,
-      title1: "Տավարի մսով",
-      content1:
-        "Տավարի կոտլետ, հազարի տերև, վարունգ, լոլիկ, մայոնեզ, կետչուպ, խոխլանդ պանիր",
+      pizzas: [
+      {id:1,  
+      img: burger,
+      title: "Տավարի մսով",
+      content:
+        "Տավարի կոտլետ, հազարի տերև, վարունգ, լոլիկ, մայոնեզ, կետչուպ, խոխլանդ պանիր"},
 
-      img2: burger,
-      title2: "Հավի մսով",
-      content2:
-        "Հավի կոտլետ, հազարի տերև, վարունգ, լոլիկ, մայոնեզ, կետչուպ, խոխլանդ պանիր",
+      {id:2,
+      img: burger,
+      title: "Հավի մսով",
+      content:
+        "Հավի կոտլետ, հազարի տերև, վարունգ, լոլիկ, մայոնեզ, կետչուպ, խոխլանդ պանիր"},
 
-      img3: burger,
-      title3: "Խոզապուխտով",
-      content3:
-        "Խոզապուխտ, հազարի տերև, վարունգ, լոլիկ, մայոնեզ, կետչուպ, խոխլանդ պանիր",
+      {id:3,
+      img: burger,
+      title: "Խոզապուխտով",
+      content:
+        "Խոզապուխտ, հազարի տերև, վարունգ, լոլիկ, մայոնեզ, կետչուպ, խոխլանդ պանիր"}
+      ]
     },
 
     {
       id: 3,
       img: hotDishes,
       title: "Տաք Ուտեստներ",
-      content: "Lorem Ipsum",
+      content: "Խոզի խորոված, Գաոի խորոված, Ամաոային խորոված, Քաբաբ Տավարի,",
+
+      pizzas: [
+        {id:1,
+      img: hotDishes,
+      title: "Խոզի խորոված",
+      },
+
+      {id:2,
+      img: hotDishes,
+      title: "Գաոի խորոված",
+      },
+
+      {id:3,
+      img: hotDishes,
+      title: "Ամաոային խորոված",
+      },
+
+      {id:4,
+      img: hotDishes,
+      title: "Քաբաբ Տավարի",
+      },
+
+      {id:5,
+      img: hotDishes,
+      title: "Հավի քաբաբ",
+      },
+
+      {id:6,
+        img: hotDishes,
+        title: "Իշխան խորոված",
+      },
+
+      {id:7,
+        img: hotDishes,
+        title: "Սիգ խորոված",
+      },
+
+      {id:8,
+        img: hotDishes,
+        title: "Ճուտ ֆրիով",
+      },
+
+      {id:10,
+        img: hotDishes,
+        title: "Պանրի ձողիկներ",
+      },
+
+      {id:11,
+        img: hotDishes,
+        title: "Հավի տևիկ",
+      },
+
+      {id:12,
+        img: hotDishes,
+        title: "Հավի նագետս",
+      },
+
+      {id:13,
+        img: hotDishes,
+        title: "Կարտոֆիլ պլեճ",
+      },
+
+      {id:14,
+        img: hotDishes,
+        title: "Կոտլետ տավարի մսով",
+      },
+
+      {id:15,
+        img: hotDishes,
+        title: "Կոտլետ հավի մսով",
+      }
+    ]
     },
     {
       id: 4,
@@ -118,34 +207,73 @@ export default function Menu(menu1) {
       img: garnir,
       title: "Խավարտ",
       content: "Lorem Ipsum",
+
+      pizzas: [
+        {id:1,  
+        img: garnir,
+        title: "Սպագետտի",
+        },
+  
+        {id:2,
+        img: garnir,
+        title: "Հնդկաձավար",
+        },
+  
+        {id:3,
+        img: garnir,
+        title: "Կարտոֆիլի պյուրե",
+        },
+
+        {id:4,
+          img: garnir,
+          title: "Ֆրի",
+        },
+
+        {id:5,
+          img: garnir,
+          title: "Կարտոֆիլ տնական",
+        },
+
+        {id:6,
+          img: garnir,
+          title: "Լոլիկով ձվաձեղ",
+        }
+        ]
     },
     {
       id: 6,
       img: salat,
       title: "Աղցան",
-      content: "Lorem Ipsum",
+      content: "Կայսերական, Հունական, Ամառային, Տավարի մսով աղցան, Հավի մսով աղցան",
 
-      img1: salat,
-      title1: "Կայսերական",
-      content1:
-        "Հազարի տերևներ, հավի կրցքամիս, չորահաց, լոլիկ, սոուս, թարմ եզան պանիր",
+      pizzas: [
+        {id:1,
+      img: salat,
+      title: "Կայսերական",
+      content:
+        "Հազարի տերևներ, հավի կրցքամիս, չորահաց, լոլիկ, սոուս, թարմ եզան պանիր"},
 
-      img2: salat,
-      title2: "Հունական",
-      content2: "Վարունգ, լոլիկ, ձիթապտուղ, ձիթապտղի ձեթ, բրինձա պանիր, սոխ",
+      {id:2,
+      img: salat,
+      title: "Հունական",
+      content: "Վարունգ, լոլիկ, ձիթապտուղ, ձիթապտղի ձեթ, բրինձա պանիր, սոխ"},
 
-      img3: salat,
-      title3: "Ամառային",
-      content3: "Լոլիկ, վարունգ, կանաչի, սոխ, բուսայուղ,",
+      {id:3,
+      img: salat,
+      title: "Ամառային",
+      content: "Լոլիկ, վարունգ, կանաչի, սոխ, բուսայուղ"},
 
-      img4: salat,
-      title4: "Տավարի մսով աղցան",
-      content4:
-        "Բուլղարական պղպեղ, տավարի միս, գազար, բրոկոլի, ձիթայուղ, քունջութ",
+      {id:4,
+      img: salat,
+      title: "Տավարի մսով աղցան",
+      content:
+        "Բուլղարական պղպեղ, տավարի միս, գազար, բրոկոլի, ձիթայուղ, քունջութ"},
 
-      img5: salat,
-      title5: "Հավի մսով աղցան",
-      content5: "հավի կրցքամիս, մարինացված սունկ, մայոնեզ, ընկույզ",
+      {id:5,
+      img: salat,
+      title: "Հավի մսով աղցան",
+      content: "հավի կրցքամիս, մարինացված սունկ, մայոնեզ, ընկույզ"}
+    ]
     },
     {
       id: 7,
@@ -158,12 +286,131 @@ export default function Menu(menu1) {
       img: cola,
       title: "Զովացուցիչ ըմպելիքներ",
       content: "Lorem Ipsum",
+
+      pizzas: [
+        {id:1,  
+        img: cola,
+        title: "Կոլա, Ֆանտա, Սփրայթ",
+        },
+  
+        {id:2,
+        img: cola,
+        title: "Լիմոնադ",
+        },
+  
+        {id:3,
+        img: cola,
+        title: "Հանքային ջուր",
+        },
+
+        {id:4,
+          img: cola,
+          title: "Բնական հյութ",
+        },
+
+        {id:5,
+          img: cola,
+          title: "Տոմատի հյութ",
+        },
+
+        {id:6,
+          img: cola,
+          title: "Ելակ",
+        },
+
+        {id:7,
+          img: cola,
+          title: "Բանան",
+        },
+
+        {id:8,  
+          img: cola,
+          title: "Խնձոր",
+        },
+    
+        {id:9,
+          img: cola,
+          title: "Նարինջ",
+        },
+    
+        {id:10,
+          img: cola,
+          title: "Կիվի",
+        },
+  
+        {id:11,
+          img: cola,
+          title: "Կիտրոն",
+        },
+  
+        {id:12,
+          img: cola,
+          title: "Գազար",
+        },
+  
+        {id:13,
+          img: cola,
+          title: "Խնձոր-կիվի",
+        },
+  
+        {id:14,
+          img: cola,
+          title: "Ելակ-բանան",
+        },
+
+        {id:15,  
+          img: cola,
+          title: "Ելակ-կիվի",
+        },
+      
+        {id:16,
+          img: cola,
+          title: "Նարինջ-բանակ",
+        }
+        ]
     },
     {
       id: 9,
       img: zakuski,
       title: "Սառը խորտիկներ",
       content: "Lorem Ipsum",
+
+      pizzas: [
+        {id:1,  
+        img: zakuski,
+        title: "Ձիթապտուղ",
+        },
+  
+        {id:2,
+        img: zakuski,
+        title: "Կիտրոն",
+        },
+  
+        {id:3,
+        img: zakuski,
+        title: "Կանաչի",
+        },
+
+        {id:4,
+          img: zakuski,
+          title: "Պանրի տեսականի",
+        },
+
+        {id:5,
+          img: zakuski,
+          title: "Թթվի տեսականի",
+        },
+
+        {id:6,
+          img: zakuski,
+          title: "Մսի տեսականի",
+        },
+
+        {id:7,
+          img: zakuski,
+          title: "Հաց",
+        }
+        ]
     },
   ];
 
@@ -180,40 +427,7 @@ export default function Menu(menu1) {
             to="moremenu"
             state={{
               title: x.title,
-              object1: menu[1, 0],
-              object2: menu[1, 1]
-
-              // img1: x.img1,
-              // title1: x.title1,
-              // content1: x.content1,
-
-              // img2: x.img2,
-              // title2: x.title2,
-              // content2: x.content2,
-
-              // img3: x.img3,
-              // title3: x.title3,
-              // content3: x.content3,
-
-              // img4: x.img4,
-              // title4: x.title4,
-              // content4: x.content4,
-
-              // img5: x.img5,
-              // title5: x.title5,
-              // content5: x.content5,
-
-              // img6: x.img6,
-              // title6: x.title6,
-              // content6: x.content6,
-
-              // img7: x.img7,
-              // title7: x.title7,
-              // content7: x.content7,
-
-              // img8: x.img8,
-              // title8: x.title8,
-              // content8: x.content8,
+              pizzas: x.pizzas
             }}
           >
             <div className={styles.item} id="menu1">
