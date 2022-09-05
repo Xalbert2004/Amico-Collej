@@ -201,6 +201,78 @@ export default function Menu(menu1) {
       img: alkohol,
       title: "Ալկոհոլային ըմպելիքներ",
       content: "Lorem Ipsum",
+
+      pizzas: [
+        {id:1,
+      img: alkohol,
+      title: "Խոզի խորոված",
+      },
+
+      {id:2,
+      img: alkohol,
+      title: "Գաոի խորոված",
+      },
+
+      {id:3,
+      img: alkohol,
+      title: "Ամաոային խորոված",
+      },
+
+      {id:4,
+      img: alkohol,
+      title: "Քաբաբ Տավարի",
+      },
+
+      {id:5,
+      img: alkohol,
+      title: "Հավի քաբաբ",
+      },
+
+      {id:6,
+        img: alkohol,
+        title: "Իշխան խորոված",
+      },
+
+      {id:7,
+        img: alkohol,
+        title: "Սիգ խորոված",
+      },
+
+      {id:8,
+        img: alkohol,
+        title: "Ճուտ ֆրիով",
+      },
+
+      {id:10,
+        img: alkohol,
+        title: "Պանրի ձողիկներ",
+      },
+
+      {id:11,
+        img: alkohol,
+        title: "Հավի տևիկ",
+      },
+
+      {id:12,
+        img: alkohol,
+        title: "Հավի նագետս",
+      },
+
+      {id:13,
+        img: alkohol,
+        title: "Կարտոֆիլ պլեճ",
+      },
+
+      {id:14,
+        img: alkohol,
+        title: "Կոտլետ տավարի մսով",
+      },
+
+      {id:15,
+        img: alkohol,
+        title: "Կոտլետ հավի մսով",
+      }
+    ]
     },
     {
       id: 5,
@@ -280,6 +352,38 @@ export default function Menu(menu1) {
       img: apur,
       title: "Ապուրներ",
       content: "Lorem Ipsum",
+
+      pizzas: [
+        {id:1,  
+        img: apur,
+        title: "Սոլյանկա",
+        },
+  
+        {id:2,
+        img: apur,
+        title: "Խարչո",
+        },
+  
+        {id:3,
+        img: apur,
+        title: "Հավով ապուր",
+        },
+
+        {id:4,
+          img: apur,
+          title: "Սնկապուր",
+        },
+
+        {id:5,
+          img: apur,
+          title: "Թանապուր",
+        },
+
+        {id:6,
+          img: apur,
+          title: "Փիթի",
+        }
+        ]
     },
     {
       id: 8,
