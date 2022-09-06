@@ -18,7 +18,11 @@ export default function MoreMenu() {
             <img src={x.img}></img>
             <p className={styles.itemTitle}>{x.title}</p>
             <p className={styles.itemContent}>{x.content}</p>
+            <div className={styles.hoverItem}>
+                <p>{x.salary}</p>
+              </div>
           </div>
+          
         ))}
       </div>
     </div>

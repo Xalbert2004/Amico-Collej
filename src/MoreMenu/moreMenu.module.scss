@@ -14,8 +14,25 @@
     margin-top: 1vw;
     margin-left: 1vw;
     .itemsMenu {
+      div {
+        width: calc(100% - 20px);
+        height: 100%;
+        position: absolute;
+        top: 30%;
+        overflow: hidden;
+        text-align: center;
+        opacity: 0;
+        transition: all 0.4s ease-in-out;
+        color: #fff;
+        p {
+          // font-family: "Montserrat", sans-serif;
+          color: black;
+          font-size: 2.3vw;
+        }
+      }
       display: inline-block;
       cursor: pointer;
+      white-space: pre-line;
       width: 20vw;
       height: 20vw;
       box-shadow: 5px 5px rgb(228, 228, 228);
@@ -27,6 +44,18 @@
       box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
       overflow: hidden;
       font-size: 1vw;
+      &:hover img {
+        transform: scale(1.05);
+        opacity: 0.5;
+      }
+      &:hover div {
+        opacity: 1;
+      }
+      .hoverItem {
+        width: 100%;
+        height: fit-content;
+        background-color: #fff;
+      }
       @media screen and (max-width: 600px) {
         width: 35vw;
         height: 35vw;
