@@ -2,10 +2,11 @@ import React from "react";
 import styles from "../Footer/footer.module.scss";
 import { HiLocationMarker } from "react-icons/hi";
 import { HiPhone } from "react-icons/hi";
-import { MdSmsFailed } from "react-icons/md";
+
 import { IoLogoFacebook } from "react-icons/io";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { IoLogoTwitter } from "react-icons/io";
+import { IoIosContacts } from "react-icons/io";
 
 export default function Footer() {
   return (
@@ -22,6 +23,10 @@ export default function Footer() {
           <div className={styles.iconItem}>
             <HiPhone className={styles.icons} />
             <p className={styles.content}>094-26-22-62</p>
+          </div>
+          <div className={styles.iconItem}>
+            <IoIosContacts className={styles.icons} />
+            {/* <p className={styles.content}>Այս Վեբ․ կայքը պատրաստվել է "Global IT Sevan" Կազմակերպության մասնագետների կողմից</p> */}
           </div>
         </div>
         <div className={styles.item}>

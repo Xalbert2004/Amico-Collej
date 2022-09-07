@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import {
     BrowserRouter as Router,
-    Switch,
     useLocation
   } from "react-router-dom";    
 
