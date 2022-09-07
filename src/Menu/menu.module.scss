@@ -59,6 +59,7 @@
       opacity: 1;
     }
     .hoverItem {
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
       
       width: 100%;
       height: fit-content;
