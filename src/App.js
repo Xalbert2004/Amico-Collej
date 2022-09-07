@@ -9,7 +9,6 @@ export default function App() {
   return (
     <Router>
       <ScrollTop />
-
       <div className="container">
         <Routes>
           <Route path="/" element={<HomePage />}></Route>

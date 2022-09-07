@@ -59,10 +59,41 @@ import hunakan from '../images/hunakan.png'
 import amarayin from '../images/amarayin.png'
 import tavar from '../images/tavar.png'
 import havov from '../images/havov.jpg'
-
+//soups
 import apur from "../images/borsh.png";
+import solyanka from '../images/solyanka.png'
+import xarcho from '../images/xarcho.png'
+import havovsup from '../images/havovsup.png'
+import snkapur from '../images/snkapur.png'
+import spas from '../images/spas.png'
+import piti from '../images/piti.png'
+//drinks
 import cola from "../images/cola.png";
+import limonad from '../images/limonad.png'
+import jermuk from '../images/jermuk.png'
+import bnakan from '../images/bnakan.png'
+import tomat from '../images/tomat.jpg'
+import freshklubnik from '../images/freshklubnik.png'
+import freshbanan from '../images/freshbanan.webp'
+import freshxndzor from '../images/freshxndzor.jpg'
+import freshnarinj from '../images/freshnarinj.jpg'
+import freshkivi from '../images/freshkivi.jpg'
+import freshlimon from '../images/freshlimon.png'
+import freshgazar from '../images/freshgazar.jpg'
+import freshxndzorkivi from '../images/freshxndzorkivi.jfif'
+import freshklubnikbanan from '../images/freshklubnikbanan.jpg'   
+import freshklubnikkivi from '../images/freshklubnikkivi.jpg'   
+import freshbananapelsin from '../images/freshbananapelsin.jpg'   
+
+//zaksuki
 import zakuski from "../images/zakuski.png";
+import zeytun from '../images/zeytun.png'
+import limon from '../images/limon.png'
+import kanachi from '../images/kanachi.png'
+import panirner from '../images/panirner.png'
+import ttu from '../images/ttu.png'
+import msexen from '../images/msexen.png'
+import hac from '../images/hac.png'
 
 const menu = [
   {
@@ -403,82 +434,80 @@ const menu = [
     id: 7,
     img: apur,
     title: "Ապուրներ",
-    content: "Lorem Ipsum",
+    content: "Սոլյանկա,Խարչո,Հավով ապուր,Սնկապուր,Թանապուր,Փիթի",
 
     pizzas: [
-      { id: 1, img: apur, title: "Սոլյանկա" },
+      { id: 1, img: solyanka, title: "Սոլյանկա",salary:"1200դր" },
 
-      { id: 2, img: apur, title: "Խարչո" },
+      { id: 2, img: xarcho, title: "Խարչո",salary:"1000դր" },
 
-      { id: 3, img: apur, title: "Հավով ապուր" },
+      { id: 3, img: havovsup, title: "Հավով ապուր",salary:"800դր" },
 
-      { id: 4, img: apur, title: "Սնկապուր" },
+      { id: 4, img: snkapur, title: "Սնկապուր",salary:"700դր" },
 
-      { id: 5, img: apur, title: "Թանապուր" },
+      { id: 5, img: spas, title: "Թանապուր",salary:"500դր" },
 
-      { id: 6, img: apur, title: "Փիթի" },
+      { id: 6, img: piti, title: "Փիթի",salary:"1500դր" },
     ],
   },
   {
     id: 8,
     img: cola,
     title: "Զովացուցիչ ըմպելիքներ",
-    content: "Lorem Ipsum",
 
     pizzas: [
-      { id: 1, img: cola, title: "Կոլա, Ֆանտա, Սփրայթ" },
+      { id: 1, img: cola, title: "Կոլա, Ֆանտա, Սփրայթ",salary:"350դր" },
 
-      { id: 2, img: cola, title: "Լիմոնադ" },
+      { id: 2, img:limonad, title: "Լիմոնադ",salary:"350դր" },
 
-      { id: 3, img: cola, title: "Հանքային ջուր" },
+      { id: 3, img:jermuk, title: "Հանքային ջուր",salary:"350դր" },
 
-      { id: 4, img: cola, title: "Բնական հյութ" },
+      { id: 4, img:bnakan, title: "Բնական հյութ",salary:"350դր" },
 
-      { id: 5, img: cola, title: "Տոմատի հյութ" },
+      { id: 5, img:tomat, title: "Տոմատի հյութ",salary:"350դր" },
 
-      { id: 6, img: cola, title: "Ելակ" },
+      { id: 6, img:freshklubnik, title: "Ելակ",salary:"1200դր" },
 
-      { id: 7, img: cola, title: "Բանան" },
+      { id: 7, img:freshbanan, title: "Բանան",salary:"600դր" },
 
-      { id: 8, img: cola, title: "Խնձոր" },
+      { id: 8, img:freshxndzor, title: "Խնձոր",salary:"500դր" },
 
-      { id: 9, img: cola, title: "Նարինջ" },
+      { id: 9, img:freshnarinj, title: "Նարինջ",salary:"600դր" },
 
-      { id: 10, img: cola, title: "Կիվի" },
+      { id: 10, img:freshkivi, title: "Կիվի",salary:"600դր" },
 
-      { id: 11, img: cola, title: "Կիտրոն" },
+      { id: 11, img:freshlimon, title: "Կիտրոն",salary:"600դր" },
 
-      { id: 12, img: cola, title: "Գազար" },
+      { id: 12, img:freshgazar, title: "Գազար",salary:"500դր" },
 
-      { id: 13, img: cola, title: "Խնձոր-կիվի" },
+      { id: 13, img:freshxndzorkivi, title: "Խնձոր-կիվի",salary:"600դր" },
 
-      { id: 14, img: cola, title: "Ելակ-բանան" },
+      { id: 14, img:freshklubnikbanan, title: "Ելակ-բանան" ,salary:"1000դր"},
 
-      { id: 15, img: cola, title: "Ելակ-կիվի" },
+      { id: 15, img:freshklubnikkivi, title: "Ելակ-կիվի",salary:"1000դր" },
 
-      { id: 16, img: cola, title: "Նարինջ-բանակ" },
+      { id: 16, img:freshbananapelsin, title: "Նարինջ-բանակ",salary:"1000դր" },
     ],
   },
   {
     id: 9,
     img: zakuski,
     title: "Սառը խորտիկներ",
-    content: "Lorem Ipsum",
 
     pizzas: [
-      { id: 1, img: zakuski, title: "Ձիթապտուղ" },
+      { id: 1, img: zeytun, title: "Ձիթապտուղ",salary:"800դր" },
 
-      { id: 2, img: zakuski, title: "Կիտրոն" },
+      { id: 2, img: limon, title: "Կիտրոն",salary:"500դր" },
 
-      { id: 3, img: zakuski, title: "Կանաչի" },
+      { id: 3, img: kanachi, title: "Կանաչի",salary:"500դր" },
 
-      { id: 4, img: zakuski, title: "Պանրի տեսականի" },
+      { id: 4, img: panirner, title: "Պանրի տեսականի",salary:"1500դր" },
 
-      { id: 5, img: zakuski, title: "Թթվի տեսականի" },
+      { id: 5, img: ttu, title: "Թթվի տեսականի",salary:"800դր" },
 
-      { id: 6, img: zakuski, title: "Մսի տեսականի" },
+      { id: 6, img: msexen, title: "Մսի տեսականի",salary:"2200դր" },
 
-      { id: 7, img: zakuski, title: "Հաց" },
+      { id: 7, img: hac, title: "Հաց" ,salary:"400դր"},
     ],
   },
 ];

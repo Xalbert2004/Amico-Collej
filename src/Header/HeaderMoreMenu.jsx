@@ -17,7 +17,7 @@ export default function Header() {
       ></img>
       <div className={styles.wrapper}>
         <p>Առաքում</p>
-        <p>094-26-22-62</p>
+        <a href="tel:094-26-22-62">094-26-22-62</a>
       </div>
     </div>
   );
