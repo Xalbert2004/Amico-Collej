@@ -1,8 +1,23 @@
+//pizzas
+import pizza from "../images/pizza.png";
+import amicopizza from '../images/amicopizza.jpg'
+import basturmapizza from '../images/basturmapizza.jpg'
+import margaritapizza from '../images/margaritapizza.png'
+import vichinapizza from '../images/vichinapizza.jpg'
+import koridapizza from '../images/koridapizza.jpg'
+import veganpizza from '../images/veganpizza.png'
+import chezarepizza from '../images/chezarepizza.png'
+import asortipizza from '../images/asortipizza.png'
+import kuatropizza from '../images/kuatropizza.png'
+import primaverapizza from '../images/primavera.png'
+import siciliapizza from '../images/siciliapizza.jpg'
+//burgers
 import burger from "../images/burger.jpeg";
 import tavariburger from "../images/tavariburger.png";
 import haviburger from "../images/haviburger.png";
 import vichinaburger from "../images/vichinaburger.png";
-
+//hot dishes
+import hotDishes from "../images/hotDishes.png";
 import tavarixorovac from "../images/tavarixorovac.png";
 import garixorovac from "../images/garixorovac.png";
 import amarxorovac from "../images/amarxorovac.jpg";
@@ -17,7 +32,8 @@ import havnagets from "../images/havnagets.png";
 import kartolplech from "../images/kartolplech.png";
 import tavarkatlet from "../images/tavarkatlet.jpg";
 import havkatlet from "../images/havkatlet.jpeg";
-
+//alkohol
+import alkohol from "../images/alkohol.png";
 import arax from "../images/arax.png";
 import konyak from "../images/konyak.png";
 import viski from "../images/viski.png";
@@ -28,12 +44,22 @@ import rom from "../images/rom.jpg";
 import jin from "../images/jin.png";
 import vermunt from "../images/vermunt.png";
 import piva from "../images/piva.jpg";
-
-import pizza from "../images/pizza.png";
-import hotDishes from "../images/hotDishes.png";
-import alkohol from "../images/alkohol.png";
+//garnir
 import garnir from "../images/garnir.png";
+import brindz from '../images/brindz.png'
+import grechka from '../images/grechka.jpg'
+import pyure from '../images/pyure.png'
+import fri from '../images/fri.png'
+import tnakankartol from '../images/tnakankartol.jpg'
+import cvacexlolikov from '../images/cvacexlolikov.png'
+//salat
 import salat from "../images/salat.png";
+import cezar from '../images/cezar.png'
+import hunakan from '../images/hunakan.png'
+import amarayin from '../images/amarayin.png'
+import tavar from '../images/tavar.png'
+import havov from '../images/havov.jpg'
+
 import apur from "../images/borsh.png";
 import cola from "../images/cola.png";
 import zakuski from "../images/zakuski.png";
@@ -47,7 +73,7 @@ const menu = [
       "Ամիգո, Պեպերոնի, Կոռլեոն Մարգարիտա, Ալ Պրոշուտտո, Կորիդա, Վեգետարիական ․․․",
 
     pizzas: [
-      { id: 1, img: pizza, title: "Ամիգո", salary: 450 + "/" + 3500 + "դր" },
+      { id: 1, img: amicopizza, title: "Ամիգո", salary: 450 + "/" + 3500 + "դր",content:"Ամիգո բրենդային պիցցա" },
 
       {
         id: 2,
@@ -60,7 +86,7 @@ const menu = [
 
       {
         id: 3,
-        img: pizza,
+        img: basturmapizza,
         title: "Կոռլեոն",
         content:
           "Բաստուրմա,  բուլղարական պղպեղ, օրեգատո, պանիր (Ֆենդել, մոցարելլա), սոուս",
@@ -69,7 +95,7 @@ const menu = [
 
       {
         id: 4,
-        img: pizza,
+        img: margaritapizza,
         title: "Մարգարիտա",
         content: "պանիր (Ֆենդել, մոցարելլա), բուլղարական պղպեղ, սոուս",
         salary: 320 + "/" + 2500 + "դր",
@@ -77,7 +103,7 @@ const menu = [
 
       {
         id: 5,
-        img: pizza,
+        img: vichinapizza,
         title: "Ալ Պրոշուտտո",
         content:
           "Խոզապուխտ, լոլիկ, ձիթապտուղ, սերվելատ, սոուս, պանիր (Ֆենդել, մոցարելլա)",
@@ -86,7 +112,7 @@ const menu = [
 
       {
         id: 6,
-        img: pizza,
+        img: koridapizza,
         title: "Կորիդա",
         content:
           "Տավարի միս, սունկ, սոուս, պանիր (Ֆենդել, մոցարելլա), լոլիկ, ձիթապտուղ",
@@ -95,7 +121,7 @@ const menu = [
 
       {
         id: 7,
-        img: pizza,
+        img: veganpizza,
         title: "Վեգետարիական",
         content:
           "Սունկ, Բուլղարական պղպեղ, լոլիկ, մարինացված եգիպտացորեն, պանիր",
@@ -104,7 +130,7 @@ const menu = [
 
       {
         id: 8,
-        img: pizza,
+        img: chezarepizza,
         title: "Չեզարե",
         content: "Հավի կրծքամիս, բուլղարական պանիր, պանիր, սոուս",
         salary: 370 + "/" + 2900 + "դր",
@@ -112,7 +138,7 @@ const menu = [
 
       {
         id: 9,
-        img: pizza,
+        img: asortipizza,
         title: "Ասորտի մսով",
         content:
           "Հավի կրծքամիս, սունկ, տավարի միս, լոլիկ, խոզապուխտ, սերվելատ, բաստուրմա",
@@ -121,7 +147,7 @@ const menu = [
 
       {
         id: 10,
-        img: pizza,
+        img: kuatropizza,
         title: "Կուատրո Ֆորմաջի",
         content: "Ռոկվոր, սուլուգունի, ֆենդել, մոցարելլա, օրեգանո, սոուս",
         salary: 340 + "/" + 2600 + "դր",
@@ -129,7 +155,7 @@ const menu = [
 
       {
         id: 11,
-        img: pizza,
+        img: primaverapizza,
         title: "Պրիմավերա",
         content:
           "Խոզապուխտ, հավի կրծքամիս, սունկ, պանիր (Ֆենդել, մոցարելլա), սոուս",
@@ -138,7 +164,7 @@ const menu = [
 
       {
         id: 12,
-        img: pizza,
+        img: siciliapizza,
         title: "Սիցիլիա",
         content:
           "Տավարի միս, բուլղարական պղպեղ, պանիր (Ֆենդել, մոցարելլա), սոուս ",
@@ -305,20 +331,21 @@ const menu = [
     id: 5,
     img: garnir,
     title: "Խավարտ",
-    content: "Lorem Ipsum",
+    content: "Սպագետտի,Հնդկաձավար,Կարտոֆիլի պյուրե,Ֆրի,Կարտոֆիլ տնական,Լոլիկով ձվաձեղ",
 
     pizzas: [
-      { id: 1, img: garnir, title: "Սպագետտի" },
+      { id: 1, img: garnir, title: "Սպագետտի",salary:"800դր" },
+      { id: 2, img: brindz, title: "Բրինձ",salary:"700դր" },
 
-      { id: 2, img: garnir, title: "Հնդկաձավար" },
+      { id: 3, img: grechka, title: "Հնդկաձավար",salary:"800դր" },
 
-      { id: 3, img: garnir, title: "Կարտոֆիլի պյուրե" },
+      { id: 4, img: pyure, title: "Կարտոֆիլի պյուրե",salary:"500դր" },
 
-      { id: 4, img: garnir, title: "Ֆրի" },
+      { id: 5, img: fri, title: "Ֆրի",salary:"350դր" },
 
-      { id: 5, img: garnir, title: "Կարտոֆիլ տնական" },
+      { id: 6, img: tnakankartol, title: "Կարտոֆիլ տնական",salary:"500դր" },
 
-      { id: 6, img: garnir, title: "Լոլիկով ձվաձեղ" },
+      { id: 7, img: cvacexlolikov, title: "Լոլիկով ձվաձեղ",salary:"700դր" },
     ],
   },
   {
@@ -331,39 +358,44 @@ const menu = [
     pizzas: [
       {
         id: 1,
-        img: salat,
+        img: cezar,
         title: "Կայսերական",
         content:
           "Հազարի տերևներ, հավի կրցքամիս, չորահաց, լոլիկ, սոուս, թարմ եզան պանիր",
+          salary:"1300դր"
       },
 
       {
         id: 2,
-        img: salat,
+        img: hunakan,
         title: "Հունական",
         content: "Վարունգ, լոլիկ, ձիթապտուղ, ձիթապտղի ձեթ, բրինձա պանիր, սոխ",
+        salary:"1100դր"
       },
 
       {
         id: 3,
-        img: salat,
+        img: amarayin,
         title: "Ամառային",
         content: "Լոլիկ, վարունգ, կանաչի, սոխ, բուսայուղ",
+        salary:"900դր"
       },
 
       {
         id: 4,
-        img: salat,
+        img: tavar,
         title: "Տավարի մսով աղցան",
         content:
           "Բուլղարական պղպեղ, տավարի միս, գազար, բրոկոլի, ձիթայուղ, քունջութ",
+          salary:"1200դր"
       },
 
       {
         id: 5,
-        img: salat,
+        img: havov,
         title: "Հավի մսով աղցան",
         content: "հավի կրցքամիս, մարինացված սունկ, մայոնեզ, ընկույզ",
+        salary:"700դր"
       },
     ],
   },
