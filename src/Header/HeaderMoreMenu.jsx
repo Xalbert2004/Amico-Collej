@@ -9,7 +9,7 @@ export default function Header() {
   }
   return (
     <div className={styles.container}>
-      <a href = "/"><IoMdArrowRoundBack className={styles.backward} /></a>
+      <a href = "amico-pro/"><IoMdArrowRoundBack unselectable="on" className={styles.backward} /></a>
       <img
         onDragStart={handleClick}
         className={styles.headerLogo}

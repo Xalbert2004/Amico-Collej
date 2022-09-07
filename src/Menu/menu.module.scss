@@ -17,7 +17,7 @@
     margin-top: 2vw;
     color: #e93c3c;
     @media screen and (max-width:600px) {
-    font-size: 4vw;
+    font-size: 5.5vw;
       
     }
   }
@@ -29,10 +29,12 @@
     margin-top: 0.5vw;
     @media screen and (max-width: 600px) {
       height: fit-content;
-      width: 100%;
+      width: 95vw;
     }
   }
   .item {
+
+    word-break: break-all;
     cursor: pointer;
     width: 23vw;
     height: 23vw;
@@ -45,8 +47,8 @@
     overflow: hidden;
     font-size: 1vw;
     @media screen and (max-width: 600px) {
-      width: 35vw;
-      height: 35vw;
+      width: 47vw;
+      height: 50vw;
       font-size: 2vw;
     }
     &:hover img {
@@ -57,21 +59,27 @@
       opacity: 1;
     }
     .hoverItem {
+      
       width: 100%;
       height: fit-content;
       background-color: #fff;
+      @media screen and (max-width:600px) {
+        height: fit-content;
+      }
     }
     p {
       font-size: 1vw;
       margin-left: 1vw;
       color: black;
       @media screen and (max-width: 600px) {
-        font-size: 2vw;
+        font-size: 2.58vw;
+        line-height: normal;
       }
       &:nth-child(3) {
         font-size: 1.5vw;
         @media screen and (max-width: 600px) {
-          font-size: 2.5vw;
+          font-size: 2.7vw;
+          font-weight: bold;
         }
       }
     }
@@ -88,10 +96,13 @@
       p {
         font-family: "Montserrat", sans-serif;
         color: black;
-        font-size: 2.3vw;
+        font-size: 5vw;
       }
     }
     .itemImage {
+    
+      -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+      -webkit-tap-highlight-color: transparent;
       height: 70%;
       width: 100%;
       transition: all 0.2s linear;

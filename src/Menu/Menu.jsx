@@ -15,13 +15,13 @@ export default function Menu(menu1) {
         {Arrays.map((x) => (
           <Link
             key={x.id}
-            to="moremenu"
+            to="../moremenu"
             state={{
               title: x.title,
               pizzas: x.pizzas
             }}
           >
-            <div className={styles.item} id="menu1">
+            <div  className={styles.item} id="menu1">
               <img
                 onDragStart={handleClick}
                 className={styles.itemImage}

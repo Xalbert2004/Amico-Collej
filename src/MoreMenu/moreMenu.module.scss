@@ -3,8 +3,8 @@
   width: 90%;
   @media screen and (max-width: 600px) {
     align-items: center;
-    margin: 12vw auto;
-   width: 80%;  
+    margin: 16vw auto;
+    width: 80%;
   }
   .wrapper {
     // display: flex;
@@ -28,17 +28,21 @@
           // font-family: "Montserrat", sans-serif;
           color: black;
           font-size: 2.3vw;
+          @media screen and (max-width: 600px) {
+            font-size: 7.3vw;
+          }
         }
       }
       display: inline-block;
       cursor: pointer;
       white-space: pre-line;
+
       width: 20vw;
       height: 20vw;
       box-shadow: 5px 5px rgb(228, 228, 228);
       border-radius: 1vw;
       margin-top: 1.5vw;
-      margin-left: 1.4vw;
+      margin-left: 2.3vw;
       position: relative;
       display: inline-block;
       box-shadow: 1px 3px 1px 0 rgba(0, 0, 0, 0.08);
@@ -55,11 +59,15 @@
         width: 100%;
         height: fit-content;
         background-color: #fff;
+        @media screen and (max-width: 600px) {
+          height: 9vw;
+        }
       }
       @media screen and (max-width: 600px) {
-        width: 35vw;
-        height: 35vw;
-        font-size: 2vw;
+        width: 64vw;
+        height: 64vw;
+        margin: 3vw 9%;
+        font-size: 5vw;
       }
 
       &:hover div {
@@ -70,16 +78,18 @@
         margin-left: 1vw;
         color: black;
         @media screen and (max-width: 600px) {
-          font-size: 2.5vw;
+          font-size: 3.5vw;
         }
       }
-      .itemContent{
+      .itemContent {
+        // overflow: scroll;
+        height: 6vw;
         font-size: 1vw;
         margin-left: 1vw;
         color: black;
         @media screen and (max-width: 600px) {
-            font-size: 2vw;
-          }
+          font-size: 3vw;
+        }
       }
     }
     img {
@@ -95,7 +105,7 @@
     margin-top: 2vw;
     color: #e93c3c;
     @media screen and (max-width: 600px) {
-      font-size: 4vw;
+      font-size: 6vw;
     }
   }
 }

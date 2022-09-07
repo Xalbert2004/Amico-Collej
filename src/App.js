@@ -11,7 +11,7 @@ export default function App() {
       <ScrollTop />
       <div className="container">
         <Routes>
-          <Route path="/" element={<HomePage />}></Route>
+          <Route path="amico-pro/" element={<HomePage />}></Route>
           <Route path="/moremenu" element={<MenusPage />}></Route>
         </Routes>
       </div>
