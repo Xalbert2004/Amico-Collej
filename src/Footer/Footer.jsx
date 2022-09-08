@@ -16,28 +16,51 @@ export default function Footer() {
           <p className={styles.title}>Հասցե</p>
           <div className={styles.iconItem}>
             <HiLocationMarker className={styles.icons} />
-            <p className={styles.content}>
-              Nairyan street 166/26 1501 Sevan
-            </p>
+            <p className={styles.content}>Nairyan street 166/26 1501 Sevan</p>
           </div>
           <div className={styles.iconItem}>
             <HiPhone className={styles.icons} />
-            <p className={styles.content}>094-26-22-62</p>
+            <a className={styles.content} href="tel:094-26-22-62">
+              094-26-22-62
+            </a>
           </div>
           <div className={styles.iconItem}>
-            <IoIosContacts className={styles.icons} />
+            {/* <IoIosContacts className={styles.icons} /> */}
             {/* <p className={styles.content}>Այս Վեբ․ կայքը պատրաստվել է "Global IT Sevan" Կազմակերպության մասնագետների կողմից</p> */}
           </div>
         </div>
         <div className={styles.item}>
           <p className={styles.title}>Կապ մեզ հետ</p>
           <div className={styles.socItem}>
-            <IoLogoFacebook className={styles.socIcon} />
-            <AiOutlineInstagram className={styles.socIcon} />
-            <IoLogoTwitter className={styles.socIcon} />
+            <a
+              className={styles.hoverIcons}
+              target="_blank"
+              href="https://www.facebook.com/AMICO.cafe.pizzeria/"
+            >
+              <IoLogoFacebook className={styles.socIcon} />
+            </a>
+
+            <a
+              className={styles.hoverIcons}
+              target="_blank"
+              href="https://instagram.com/amico.cafeteria?igshid=YmMyMTA2M2Y="
+            >
+              <AiOutlineInstagram className={styles.socIcon} />
+            </a>
+            {/* <a
+              className={styles.hoverIcons}
+              target="_blank"
+              href="https://www.facebook.com/AMICO.cafe.pizzeria/"
+            >
+              <IoLogoTwitter className={styles.socIcon} />
+            </a> */}
           </div>
         </div>
       </div>
+      <p className={styles.content}>
+        Վեբ կայքը ստեղծվել է "Global IT Sevan" Կազմակերպության
+      </p>
+      {"\n"} <p className={styles.content}>մասնագետների կողմից</p>
       <p className={styles.copyright}>
         Amico LLC © 2022. Բոլոր իրավունքները պաշտպանված են.
       </p>

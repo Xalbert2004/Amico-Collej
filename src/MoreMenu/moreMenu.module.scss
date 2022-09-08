@@ -1,9 +1,9 @@
 .container {
-  margin: 10vw auto;
+  margin: 10vw auto 2vw auto ;
   width: 90%;
   @media screen and (max-width: 600px) {
     align-items: center;
-    margin: 16vw auto;
+    margin: 16vw auto 0 auto;
     width: 80%;
   }
   .wrapper {

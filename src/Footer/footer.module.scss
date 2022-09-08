@@ -3,9 +3,18 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 15vw;
+  height: 20vw;
   @media screen and (max-width: 600px) {
     z-index: 20;
+    height: 30vw;
+  }
+  .content {
+    font-size: 1.3vw;
+    font-weight: bold;
+    @media screen and (max-width: 600px) {
+      font-size: 2.5vw;
+      margin-top: 1.3vw;
+    }
   }
   .wrapper {
     display: flex;
@@ -15,13 +24,20 @@
     height: 90%;
     margin: 0 auto;
     border-bottom: 1px solid gray;
+    @media screen and(max-width:600px) {
+      height: 70%;
+      width: 85%;
+    }
     .item {
       display: flex;
+      justify-content: space-around;
       flex-direction: column;
+      align-items: flex-end;
       width: 40%;
-      height: 90%;
+      height: 50%;
       @media screen and (max-width: 600px) {
         width: 60%;
+        height: 50%;
       }
       .iconItem {
         display: flex;
@@ -30,44 +46,52 @@
         width: 85%;
         margin-top: 1vw;
         @media screen and (max-width: 600px) {
-          width: 50vw;
+          width: 55vw;
         }
         .icons {
           font-size: 1.2vw !important;
           @media screen and (max-width: 600px) {
-            font-size: 2vw !important;
+            font-size: 3.5vw !important;
           }
         }
-        
       }
 
       .socItem {
         display: flex;
         justify-content: space-between;
-        margin-top: 1vw;
+        margin: 1vw auto;
         font-size: 4vw;
+        width: 10vw;
+        @media screen and (max-width:600px) {
+          width: 25vw;
+        }
         .socicon {
           font-size: 3.7vw !important;
           cursor: pointer;
 
         }
         @media screen and (max-width: 600px) {
-          font-size: 5.5vw !important;
+          font-size: 9vw !important;
+        }
+        .hoverIcons:nth-child(1):hover,:nth-child(3):hover{
+          color: blue;
         }
       }
       .title {
         font-family: "Montserrat", sans-serif;
         color: #e93c3c;
         font-size: 1.7vw;
+        margin: 0 auto;
         @media screen and (max-width: 600px) {
-          font-size: 2.2vw;
+          font-size: 3vw;
         }
       }
       .content {
         font-size: 1.2vw;
+        font-weight: normal;
         margin-left: 1vw;
         @media screen and (max-width: 600px) {
-          font-size: 2.2vw;
+          font-size: 2.8vw;
         }
       }
     }
@@ -77,5 +101,8 @@
     text-align: center;
     margin-top: 1vw;
     margin-bottom: 1vw;
+    @media screen and (max-width: 600px) {
+      font-size: 2vw;
+    }
   }
 }

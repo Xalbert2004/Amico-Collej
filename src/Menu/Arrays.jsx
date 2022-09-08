@@ -1,5 +1,5 @@
 //pizzas
-import pizza from "../images/pizza.png";
+import pizza from "../images/pizza.webp";
 import amicopizza from '../images/amicopizza.jpg'
 import basturmapizza from '../images/basturmapizza.jpg'
 import margaritapizza from '../images/margaritapizza.png'
@@ -15,7 +15,7 @@ import siciliapizza from '../images/siciliapizza.jpg'
 import burger from "../images/burger.jpeg";
 import tavariburger from "../images/tavariburger.png";
 import haviburger from "../images/haviburger.png";
-import vichinaburger from "../images/vichinaburger.png";
+import vichina from "../images/vichina.jpg";
 //hot dishes
 import hotDishes from "../images/hotDishes.png";
 import tavarixorovac from "../images/tavarixorovac.png";
@@ -231,7 +231,7 @@ const menu = [
 
       {
         id: 3,
-        img: vichinaburger,
+        img: vichina,
         title: "Խոզապուխտով",
         content:
           "Խոզապուխտ, հազարի տերև, վարունգ, լոլիկ, մայոնեզ, կետչուպ, խոխլանդ պանիր",
@@ -284,7 +284,7 @@ const menu = [
   {
     id: 4,
     img: alkohol,
-    title: "Ալկոհոլային ըմպելիքներ",
+    title: "Ալկոհոլային \n ըմպելիքներ",
     content: "Օղի, Կոնյակ, Վիսկի, Գինի, Շամպայն, Տեկիլա, Ռոմ, Ջին, Վերմունտ, Գարեջուր",
 
     pizzas: [
@@ -454,7 +454,7 @@ const menu = [
   {
     id: 8,
     img: cola,
-    title: "Զովացուցիչ ըմպելիքներ",
+    title: "Զովացուցիչ\n ըմպելիքներ",
     content:"Կոլա, Ֆանտա, Սփրայթ, Լիմոնադ, Հանքային ջուր, Բնական հյութ, Տոմատի հյութ, Ելակ, Բանան, Խնձոր, Նարինջ, Կիվի, Կիտրոն, Գազար, Խնձոր-կիվի, Ելակ-բանան, Ելակ-կիվի, Նարինջ-բանակ",
 
     pizzas: [
@@ -494,7 +494,7 @@ const menu = [
   {
     id: 9,
     img: zakuski,
-    title: "Սառը խորտիկներ",
+    title: "Սառը\n խորտիկներ",
     content:"Ձիթապտուղ, Կիտրոն, Կանաչի, Պանրի տեսականի, Թթվի տեսականի, Մսի տեսականի, Հաց",
 
     pizzas: [
