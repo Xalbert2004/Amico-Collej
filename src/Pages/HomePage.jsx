@@ -3,7 +3,6 @@ import AmicoBackground from "../AmicoBackground/AmicoBackground";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Menu from "../Menu/Menu";
-import Map from "../Map/Map";
 
 export default function HomePage() {
   return (
@@ -11,8 +10,7 @@ export default function HomePage() {
       <Header />
       <AmicoBackground home="home" />
       <Menu menu1="menu1" />
-      <Map kap="kap" />
-      <Footer />
+      <Footer kap="kap" />
     </div>
   );
 }

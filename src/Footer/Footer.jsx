@@ -2,21 +2,19 @@ import React from "react";
 import styles from "../Footer/footer.module.scss";
 import { HiLocationMarker } from "react-icons/hi";
 import { HiPhone } from "react-icons/hi";
-
 import { IoLogoFacebook } from "react-icons/io";
 import { AiOutlineInstagram } from "react-icons/ai";
-import { IoLogoTwitter } from "react-icons/io";
-import { IoIosContacts } from "react-icons/io";
-
-export default function Footer() {
+export default function Footer({kap}) {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id={kap}>
       <div className={styles.wrapper}>
         <div className={styles.item}>
           <p className={styles.title}>Հասցե</p>
           <div className={styles.iconItem}>
             <HiLocationMarker className={styles.icons} />
-            <p className={styles.content}>Nairyan street 166/26 1501 Sevan</p>
+            <a target="_blank" href="https://www.google.com/maps/place/166,+AMICO+cafeteria,+26+Nairyan+St,+Sevan+1501,+%D0%90%D1%80%D0%BC%D0%B5%D0%BD%D0%B8%D1%8F/@40.5484617,44.9607482,19z/data=!4m5!3m4!1s0x404046c3c1d203e3:0xb55dfa4d40f7c544!8m2!3d40.5483708!4d44.9605251">
+              <p className={styles.content}>Nairyan street 166/26 1501 Sevan</p>
+            </a>
           </div>
           <div className={styles.iconItem}>
             <HiPhone className={styles.icons} />
@@ -25,8 +23,6 @@ export default function Footer() {
             </a>
           </div>
           <div className={styles.iconItem}>
-            {/* <IoIosContacts className={styles.icons} /> */}
-            {/* <p className={styles.content}>Այս Վեբ․ կայքը պատրաստվել է "Global IT Sevan" Կազմակերպության մասնագետների կողմից</p> */}
           </div>
         </div>
         <div className={styles.item}>
@@ -39,7 +35,6 @@ export default function Footer() {
             >
               <IoLogoFacebook className={styles.socIcon} />
             </a>
-
             <a
               className={styles.hoverIcons}
               target="_blank"
@@ -47,13 +42,6 @@ export default function Footer() {
             >
               <AiOutlineInstagram className={styles.socIcon} />
             </a>
-            {/* <a
-              className={styles.hoverIcons}
-              target="_blank"
-              href="https://www.facebook.com/AMICO.cafe.pizzeria/"
-            >
-              <IoLogoTwitter className={styles.socIcon} />
-            </a> */}
           </div>
         </div>
       </div>

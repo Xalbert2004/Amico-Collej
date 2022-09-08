@@ -6,9 +6,6 @@ export default function MoreMenu() {
   const title = location.state.title;
   const pizzas = location.state.pizzas;
 
-  console.log(pizzas);
-  console.log(title);
-
   return (
     <div className={styles.container}>
       <p className={styles.title}>{title}</p>
@@ -22,7 +19,6 @@ export default function MoreMenu() {
                 <p>{x.salary}</p>
               </div>
           </div>
-          
         ))}
       </div>
     </div>

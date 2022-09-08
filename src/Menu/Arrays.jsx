@@ -1,16 +1,16 @@
 //pizzas
 import pizza from "../images/pizza.webp";
-import amicopizza from '../images/amicopizza.jpg'
-import basturmapizza from '../images/basturmapizza.jpg'
+import amicopizza from '../images/amicopizza.png'
+import basturmapizza from '../images/basturmapizza.png'
 import margaritapizza from '../images/margaritapizza.png'
-import vichinapizza from '../images/vichinapizza.jpg'
-import koridapizza from '../images/koridapizza.jpg'
+import vichinapizza from '../images/vichinapizza.png'
+import koridapizza from '../images/koridapizza.png'
 import veganpizza from '../images/veganpizza.png'
 import chezarepizza from '../images/chezarepizza.png'
 import asortipizza from '../images/asortipizza.png'
 import kuatropizza from '../images/kuatropizza.png'
 import primaverapizza from '../images/primavera.png'
-import siciliapizza from '../images/siciliapizza.jpg'
+import siciliapizza from '../images/siciliapizza.png'
 //burgers
 import burger from "../images/burger.jpeg";
 import tavariburger from "../images/tavariburger.png";
