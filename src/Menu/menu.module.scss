@@ -85,6 +85,7 @@
       }
     }
     div {
+      white-space: pre-line;
       width: calc(100% - 20px);
       height: 100%;
       position: absolute;
@@ -97,7 +98,10 @@
       p {
         font-family: "Montserrat", sans-serif;
         color: black;
-        font-size: 5vw;
+        font-size: 3vw;
+        @media screen and (max-width:600px) {
+          font-size: 5vw;
+        }
       }
     }
     .itemImage {
