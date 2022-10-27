@@ -1,8 +1,12 @@
 import React from "react";
 import styles from "../Header/header.module.scss";
 import amicoLogo from "../images/amicologo.png";
+import { useState } from "react";
+import SignUp from "../signUp/SignUp";
 
 export default function Header() {
+  const [modalActive, setModalActive] = useState(false)
+
   function handleClick(e) {
     e.preventDefault();
   }
@@ -25,7 +29,10 @@ export default function Header() {
             <a href="#kap">Կապ</a>
           </li>
           <li>
-          <a href="#">Գրանցում</a>  
+          <span 
+            onClick={() => setModalActive(true) }
+              >Գրանցում</span>  
+              {modalActive && <SignUp active={modalActive} setActive={setModalActive} />}
           </li>
         </ul>
       </nav>
