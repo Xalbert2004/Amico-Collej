@@ -24,6 +24,9 @@ export default function Header() {
           <li>
             <a href="#kap">Կապ</a>
           </li>
+          <li>
+          <a href="#">Գրանցում</a>  
+          </li>
         </ul>
       </nav>
       <div className={styles.wrapper}>
