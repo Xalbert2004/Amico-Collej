@@ -9,10 +9,10 @@ export default function SignUp({ setActive }) {
                 <p className={styles.title}>Գրանցում</p>
                 <p className={styles.text}>Գրանցվիր անվճար և օգտվիր մեր ծաոայություններից</p>
                 <input className={styles.inp_sign} type="text" placeholder='Login' />
-                <input className={styles.inp_sign} type="password" placeholder='Password' />
+                <input className={styles.inp_sign2} type="password" placeholder='Password' />
                 <div className="chekb_block">
                     <input id="chbox" name="chbox" type="checkbox"  />
-                    <label for="chbox" >Համաձայն եմ</label>
+                    <label for="chbox" > <p className={styles.labelText}>Համաձայն եմ</p></label>
                     <p>Մոռացել եք Գախնաբաոը՞</p>
                 </div>
                 <button>Login</button>
