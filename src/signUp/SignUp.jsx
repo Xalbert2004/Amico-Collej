@@ -11,9 +11,9 @@ export default function SignUp({ setActive }) {
                 <input className={styles.inp_sign} type="text" placeholder='Login' />
                 <input className={styles.inp_sign2} type="password" placeholder='Password' />
                 <div className="chekb_block">
-                    <input id="chbox" name="chbox" type="checkbox"  />
-                    <label for="chbox" > <p className={styles.labelText}>Համաձայն եմ</p></label>
-                    <p>Մոռացել եք Գախնաբաոը՞</p>
+                    <input  id="chbox" name="chbox" type="checkbox" />
+                    <label for="chbox"   style={{fontSize:'16px', color:'black'}} >Համաձայն եմ</label>
+                    <p style={{fontSize:'16px', color:'red'}} >Մոռացել եք Գաղտնաբաոը՞</p>
                 </div>
                 <button>Login</button>
             </div>
