@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: auto;
     
     transition: transform 1s ease-in-out;
     .modal_content{
@@ -15,11 +16,11 @@
         border-radius: 12px;
         background-color: #E5E5E5;
         width: 347px;
-        height: 406px;
+        // height: 476px;
 
         .signUp{
             width: 347px;
-            height: 406px;
+            // height: 476px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -35,12 +36,12 @@
             }
 
             .text{
-                margin: 29px auto 0;
+                margin: 19px auto 0;
                 font-family: 'Lexend Deca';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 20px;
-                line-height: 20px;
+                font-size: 18px;
+                line-height: 18px;
                 text-align: center;
                 color: #224957;
             }
@@ -86,53 +87,55 @@
             .chekb_block{
                 margin: 23px auto 0;
                 display: flex;
-                justify-content: space-between;
-                flex-direction: row;
+                justify-content: space-around;
+                flex-direction: column;
+                width: 300px;
+                font-family: 'Montserrat';
 
-                input{
-                    width: 100px;
-                    
+                p{
+                    // width: 128px;
+                    // height: 17px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    // font-size: 14px;
+                    line-height: 10px;
+                    // text-align: center;
+                    margin: 10px 0px 5px 0px;
+                    // color: black;
                 }
-
-                // label{
-                //     // width: 108px;
-                //     // height: 17px;
-                //     width: 90px;
-                //     height: 20px;
-                //     margin: 0;
-                //     padding: 0;
-                //     font-family: 'Montserrat';
+            //     input{
+                   
                     
-                //     // font-weight: 500;
-                //     font-size: 10px !important;
-                //     // line-height: 17px;
-                //     color: #224957 !important;
+            //     }
 
-                //     .labelText{
-                //         color: #4a89a0 !important;
-                //         font-size: 10px;
+            //     label{
+            //         // width: 108px;
+            //         // height: 17px;
+            //         width: 90px;
+            //         height: 20px;
+            //         margin: 0;
+            //         padding: 0;
+            //         font-family: 'Montserrat';
+                    
+            //         font-weight: 500;
+                    
+            //         line-height: 17px;
+                    
 
-                //     }
-                // }
+            //         .labelText{
+            //             color: #4a89a0;
+            //             font-size: 10px;
+
+            //         }
+            //     }
 
 
-                // p{
-                //     width: 128px;
-                //     height: 17px;
-                //     font-family: 'Montserrat';
-                //     font-style: normal;
-                //     font-weight: 500;
-                //     font-size: 14px;
-                //     line-height: 17px;
-                //     text-align: center;
-                //     margin: 0 auto 0;
-                //     color: black;
-                // }
             }
-            button{
+            .submit{
                 width: 300px;
                 height: 45px;
-                margin: 24px auto 0;
+                margin: 14px auto 15px;
                 background: #20DF7F;
                 border: none;
                 box-shadow: 0px 3px 3px rgba(12, 209, 111, 0.966);
@@ -146,8 +149,15 @@
                 text-align: center;
                 text-transform: capitalize;
                 color: #224957;
+                cursor: pointer;
 
             }
+        }
+        .signUp:last-child{
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+            color:rgb(46, 46, 245);
         }
     }
 }
